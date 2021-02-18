@@ -220,13 +220,24 @@ section:nth-child(9) div:nth-child(3) {
 
 section:nth-child(9) div:nth-child(4) { 
     margin: 20px auto;
+    border-radius: 50%;
+    border: rgb(68, 56, 46);
+    width: 120px; 
+    height: 120px;
+    background-color:  rgb(68, 56, 46);
+}
+
+/* section:nth-child(9) div:nth-child(4) section { 
+    margin: 20px auto;
     border-radius: 59% 41% 65% 35% / 50% 48% 52% 50% ;
-    width: 130px; 
-    height: 85px;
+    width: 100px; 
+    height: 55px;
     background-color:  rgb(68, 56, 46);
     background-image:
     radial-gradient(closest-side at 60%  , #f2ecda 30%, transparent 30%);
-}
+} */
+
+
 
 
 
