@@ -101,8 +101,8 @@ main{
 
 header{
     width: 20%;
-    grid-column: 1;
-    grid-row: 1 ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
 }
 
 
