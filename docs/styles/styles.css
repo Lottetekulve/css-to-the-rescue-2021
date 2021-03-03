@@ -15,7 +15,6 @@ body {
     height: 100%;
 
     /* light mode */
-    /* background-color: #f2ecda; */
     background:linear-gradient(0deg, rgba(242, 236, 218, 0.82), rgba(242, 236, 218, 0.82)), url(https://i.pinimg.com/originals/4c/65/f9/4c65f913798dcd566fb929d0973a37e6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
