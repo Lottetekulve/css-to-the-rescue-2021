@@ -25,10 +25,10 @@ Voor deze opdracht ga ik een online restaurant menu maken doormidden van html en
 
 ## Content
 Hieronder zie je aantal van de vormen die ik gemaakt heb. Hierbij zijn allerlei verschillende methodes gebruikt.
- ![](./images/content1.png)
+ ![](./images/vormen.png)
 
  Zie hier wat voor font ik gebruik en hoe de indeling is van de html elementen.
- ![](./images/font.png)
+ ![](./images/main.png)
 
  ## Per week
  ### Week 1:

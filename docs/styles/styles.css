@@ -3,7 +3,7 @@
 html{
     /* /* lightmode */
     color: #48423c;
-    padding: 35% 10% 10%;
+    padding: 35% 5% 5%;
     background:linear-gradient(0deg, rgba(242, 236, 218, 0.5), rgba(242, 236, 218, 0.5)), url(https://www.printablee.com/postpic/2012/02/wild-west-wanted-sign-template_320703.png);
     background-repeat: repeat-y;
     background-size:contain;
@@ -17,40 +17,30 @@ body {
     height: 100%;
 
     /* light mode */
-    background: linear-gradient( rgba(242, 236, 218, 1), rgba(242, 236, 218, 1));
+    background: linear-gradient( rgba(242, 236, 218, 0.9), rgba(242, 236, 218, 0.9));
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 main{
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
-
-
-
-/* header{
-    /* animation: spinning 5s infinite linear; */
-/* }  */
 
 section{
     width: 500px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0fr 0fr 0fr 0fr 0fr 0fr;
-    /* margin: 120px; */
+    margin: 0 50px 50px 0;
 }
 
-section:nth-child(1){
-    margin-left: 0;
-}
 
-section:nth-child(4){
-    margin-left: 0;
-}
-
-section:nth-child(7){
-    margin-left: 0;
+section:nth-child(8){
+    display: block;
+    width: 500px;
 }
 
 section header{
@@ -61,6 +51,7 @@ section header{
     grid-template-rows: 1fr;
     grid-column: 1/2;
     margin: 0 50% 0 0;
+    font-family: nashville;
 }
 
 
@@ -79,12 +70,6 @@ blockquote{
 }
   
 
-section:nth-child(8){
-    display: block;
-    grid-area: section8;
-    width: 500px;
-}
-
  
 
 /* tekst */
@@ -99,44 +84,45 @@ h1{
 } 
 
 h2{
-    font-size: 5vw;
+    font-size: 3em;
     margin: 0;
     writing-mode: vertical-lr;
     font-family: nashville;
-    transform-origin:left center;
+    transform-origin:right center;
     transition-delay: .5s;
     animation: swing 6s linear infinite;
-    grid-column: 1/2;
+    grid-column: 2/3;
     background-color: #48423c;
     color: #f2ecda;
-    border-radius:  0% 30% 30% 0%;
+    border-radius:  30% 0% 0% 30%;
     text-align: center;
     width: 80%;
-    height: 100%;
-    padding: 15px;
+    height: 90%;
+    padding: 5px;
     background-image:
-    radial-gradient(circle at 90% 50%, #f2ecda 5%, transparent 5%);
+    radial-gradient(circle at 10% 50%, #f2ecda 5%, transparent 5%);
 }
 
 
 main header p{
-    transform-origin: right center;
+    transform-origin: left center;
     transition-delay: .5s;
     animation: swinging 6s linear infinite;
     color:#f2ecda ;
     writing-mode: vertical-lr;
-    font-size: 2vw;
+    /* font-size: max(2vw, 30px); */
     margin: 0 0 0 5px;
-    grid-column: 2/3;
+    grid-column: 1/2;
+    grid-row: 1/2;
     text-align: center;
     font-family: nashville;
     background-color: #48423c;
-    border-radius:  30% 0% 0% 30%;
+    border-radius:  0% 30% 30% 0%;
     width: 80%;
-    height: 100%;
-    padding: 15px;
+    height: 90%;
+    padding: 5px 5px 5px 10px;
     background-image:
-    radial-gradient(circle at 10% 50%,#f2ecda 5%, transparent 5%);
+    radial-gradient(circle at 90% 50%,#f2ecda 5%, transparent 5%);
 }
 
 h3{
@@ -149,7 +135,7 @@ p{
 
 header p{
     font-size: 2em;
-    font-family: nashville;
+    font-family: 'Times New Roman', Times, serif ;
     text-align: center;
     /* writing-mode: vertical-lr; */
 }
@@ -157,6 +143,16 @@ header p{
 blockquote p{
     margin: 0;
 }
+
+section:nth-child(5) h2, section:nth-child(6) h2, section:nth-child(7) h2{
+    text-align: left;
+    animation: none;
+    background: none;
+    color: #48423c;
+    font-size: 56px;
+    grid-column: 1/2;
+}
+
 
 
 
@@ -264,7 +260,7 @@ section:nth-child(8) div:nth-child(4)::after {
     transform: rotateY(0deg);
     }
     100%{
-    transform: rotateY(90deg);
+    transform: rotateY(360deg);
     }
     0%{
         transform: rotateY(0deg);
@@ -345,13 +341,13 @@ section:nth-child(8) div:nth-child(4)::after {
 @media (prefers-color-scheme: dark) {
     html{
         color: #f2ecda;
-        background:linear-gradient(0deg, rgba(242, 236, 218, 0.5), rgba(242, 236, 218, 0.5)), url(https://www.printablee.com/postpic/2012/02/wild-west-wanted-sign-template_320703.png);
+        background:linear-gradient(0deg, rgba(72,66,60, 0.8), rgba(72,66,60, 0.8)), url(https://www.printablee.com/postpic/2012/02/wild-west-wanted-sign-template_320703.png);
         background-repeat: repeat-y;
         background-size:contain;
     }
     
     body{
-        background:linear-gradient(0deg, rgba(72,66,60, 0.9), rgba(72,66,60, 0.9)), url(https://i.pinimg.com/originals/4c/65/f9/4c65f913798dcd566fb929d0973a37e6.jpg);
+        background:linear-gradient(0deg, rgba(72,66,60, 0.9), rgba(72,66,60, 0.9));
     }
 
     main header p{
@@ -419,6 +415,10 @@ section:nth-child(8) div:nth-child(4)::after {
         background-color: #f2ecda;
         background-image:
         radial-gradient(circle at 75%, #585046  10%, transparent 10%);
+    }
+
+    section:nth-child(5) h2, section:nth-child(6) h2, section:nth-child(7) h2{
+        color: #f2ecda;
     }
     
 } 
