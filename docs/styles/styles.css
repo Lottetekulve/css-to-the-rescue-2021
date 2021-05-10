@@ -354,7 +354,7 @@ section:nth-child(8) div:nth-child(4)::after {
     background-color: #f2ecda;
     color: #48423c;
     background-image:
-    radial-gradient(circle at 10% 50%, #48423c 5%, transparent 5%);
+    radial-gradient(circle at 90% 50%, #48423c 5%, transparent 5%);
 
     }
 
@@ -362,7 +362,7 @@ section:nth-child(8) div:nth-child(4)::after {
         background-color: #f2ecda;
         color: #48423c;
         background-image:
-        radial-gradient(circle at 90% 50%, #48423c 5%, transparent 5%);
+        radial-gradient(circle at 10% 50%, #48423c 5%, transparent 5%);
     
         }
     
